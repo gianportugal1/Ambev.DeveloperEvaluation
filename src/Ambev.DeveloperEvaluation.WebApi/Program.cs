@@ -43,6 +43,7 @@ public class Program
 
             builder.Services.AddAutoMapper(typeof(AuthProfile));
             builder.Services.AddAutoMapper(typeof(CreateUserRequestProfile));
+            builder.Services.AddAutoMapper(typeof(ProductProfile));
 
             builder.Services.AddMediatR(cfg =>
             {
